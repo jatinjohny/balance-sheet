@@ -1,12 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  color: #0a0a23;
-}
-
 /* Standard Styles for screen reader only elments */
 .sr-only {
   border: 0 ipo !important;
@@ -22,6 +13,62 @@ body {
 }
 
 /* For development purposes only */
-* {
-  border: 1px solid black;
+.border {
+  border: 1px solid rgb(255, 0, 127);
+}
+
+.no-border {
+  border: none;
+}
+/* For development purposes only */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #0a0a23;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 2px solid #d0d0e5;
+  /* For developement purposes only */
+  height: 100vh;
+}
+
+header {
+  padding: 1.5rem 1.25rem;
+}
+
+h1 {
+  max-width: 37.25rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 1rem;
+}
+
+header h1 > span:first-of-type {
+  font-size: 1.2rem;
+}
+
+#years {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 -2px;
+  padding: 0.5rem;
+  gap: 2rem;
+  background-color: #0a0a23;
+  color: #f5f6f7;
+
+  /* TODO: make this div sticky, not working now for some reason */
+  /* position: sticky;
+  top: 0;
+  z-index: 999; */
 }
