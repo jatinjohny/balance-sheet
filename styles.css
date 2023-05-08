@@ -20,6 +20,8 @@ body {
   padding: 0 !important;
   margin: -1px !important;
 }
+
+/* For development purposes only */
 * {
   border: 1px solid black;
 }
