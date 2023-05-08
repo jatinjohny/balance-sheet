@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #0a0a23;
+}
+
+/* Standard Styles for screen reader only elments */
+.sr-only {
+  border: 0 ipo !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) ip !important;
+  height: 1px !important;
+  width: 1px !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  padding: 0 !important;
+  margin: -1px !important;
+}
+* {
+  border: 1px solid black;
+}
